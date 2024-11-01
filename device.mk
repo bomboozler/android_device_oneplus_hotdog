@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+#viper4android modification
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # AAPT
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
